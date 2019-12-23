@@ -1,0 +1,38 @@
+{"Architecture":[
+{"Layer":[{"name":"input","layer_type":"input"}], "details":[{"activations":"224x224x3", "kernel":"3x3", "stride":2, "padding":1}]},
+{"Layer":[{"name":"L1","layer_type":"convolution"}], "details":[{"activations":"112x112x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L2","layer_type":"convolution"}], "details":[{"activations":"112x112x64", "kernel":"3x3", "stride":2, "padding":1}]},
+{"Layer":[{"name":"L3","layer_type":"convolution"}], "details":[{"activations":"56x56x112", "kernel":"3x3", "stride":2, "padding":1}]},
+{"Layer":[{"name":"L4","layer_type":"convolution"}], "details":[{"activations":"28x28x256", "kernel":"3x3", "stride":1, "padding":1}]},
+
+{"Layer":[{"name":"L5_1","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_2","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_3","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_4","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_5","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_6","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_7","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L5_8","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+
+{"Layer":[{"name":"L6_1","layer_type":"convolution"}], "details":[{"activations":"28x28x32", "kernel":"3x3", "stride":1, "padding":1}]},
+
+{"Layer":[{"name":"L6","layer_type":"convolution"}], "details":[{"activations":"28x28x256", "kernel":"3x3", "stride":2, "padding":1}]},
+{"Layer":[{"name":"L7","layer_type":"convolution"}], "details":[{"activations":"14x14x256", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L8","layer_type":"convolution"}], "details":[{"activations":"14x14x512", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L9","layer_type":"convolution"}], "details":[{"activations":"14x14x512", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L10","layer_type":"convolution"}], "details":[{"activations":"14x14x512", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L11","layer_type":"convolution"}], "details":[{"activations":"14x14x512", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L12","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L13","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L14","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L15","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L16","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L17","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L18","layer_type":"convolution"}], "details":[{"activations":"14x14x1024", "kernel":"3x3", "stride":2, "padding":1}]},
+{"Layer":[{"name":"L19","layer_type":"convolution"}], "details":[{"activations":"7x7x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L20","layer_type":"convolution"}], "details":[{"activations":"7x7x1024", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L21","layer_type":"convolution"}], "details":[{"activations":"7x7x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L22","layer_type":"convolution"}], "details":[{"activations":"7x7x1024", "kernel":"3x3", "stride":1, "padding":1}]},
+{"Layer":[{"name":"L23","layer_type":"convolution"}], "details":[{"activations":"7x7x1024", "kernel":"1x1", "stride":1, "padding":0}]},
+{"Layer":[{"name":"L24","layer_type":"convolution"}], "details":[{"activations":"7x7x1000", "kernel":"3x3", "stride":1, "padding":1}]}
+]}
