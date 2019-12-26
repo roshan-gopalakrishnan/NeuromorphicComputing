@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# File: HFNetv1
+# File: HFNet-V1
 
 import argparse
 import os
@@ -140,7 +140,7 @@ if __name__ == '__main__':
     if args.gpu:
         os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 
-    logger.set_logger_dir(os.path.join('train_log', 'hybridnet32_dropout_wo-max-v1'))
+    logger.set_logger_dir(os.path.join('train_log', 'HFNet-V1'))
 
     config = get_config()
     if args.load:
